@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Select Pages Component</title>
+
+  <!-- Montserrat font -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="modal">
+    <div class="page-selector" role="dialog" aria-label="Select pages">
+      <!-- Select All -->
+      <div class="checkbox-row">
+        <div class="label-left">
+          <span class="label-text">All pages</span>
+        </div>
+
+        <label class="checkbox-right">
+          <input type="checkbox" id="selectAll" />
+          <span class="custom-checkbox" aria-hidden="true"></span>
+        </label>
+      </div>
+
+      <hr />
+
+      <!-- Individual pages -->
+      <div class="checkbox-row">
+        <div class="label-left"><span class="label-text">Page 1</span></div>
+        <label class="checkbox-right">
+          <input type="checkbox" class="page" />
+          <span class="custom-checkbox" aria-hidden="true"></span>
+        </label>
+      </div>
+
+      <div class="checkbox-row">
+        <div class="label-left"><span class="label-text">Page 2</span></div>
+        <label class="checkbox-right">
+          <input type="checkbox" class="page" />
+          <span class="custom-checkbox" aria-hidden="true"></span>
+        </label>
+      </div>
+
+      <div class="checkbox-row">
+        <div class="label-left"><span class="label-text">Page 3</span></div>
+        <label class="checkbox-right">
+          <input type="checkbox" class="page" />
+          <span class="custom-checkbox" aria-hidden="true"></span>
+        </label>
+      </div>
+
+      <div class="checkbox-row">
+        <div class="label-left"><span class="label-text">Page 4</span></div>
+        <label class="checkbox-right">
+          <input type="checkbox" class="page" />
+          <span class="custom-checkbox" aria-hidden="true"></span>
+        </label>
+      </div>
+
+      <button class="done-btn">Done</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
