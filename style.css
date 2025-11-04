@@ -58,9 +58,9 @@ hr {
   display:flex;
   align-items:center;
   justify-content:flex-end;
-  padding-right: 6px; 
+  padding: 1px; 
   cursor: pointer;
-  min-width: 40px;
+  min-width: 10px;
 }
 
 .checkbox-right input[type="checkbox"]{
